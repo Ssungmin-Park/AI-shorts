@@ -1,8 +1,10 @@
 # AI-shorts
 
-**최신: YouTube Shorts v2 수정본 완료.** [요청 반영·수정 대본·출처·남은 작업](docs/revision-v2.md), [v2 작업·비용 저널](docs/revision-v2-state.json). 남성 음성 1회 합성에 실제 4크레딧 사용, 프로젝트 누계 79·잔액 921. 30초 수정본에 남성 내레이션·냉가스 추진기/흡착팬 설명·사용자 제공 선택 이미지를 반영했습니다. 고정 AI 문구와 주황색 보조 문구, 정지 차량 사진 컷을 제거했습니다. 아래 첫 완성본은 v1 이력입니다.
+**최신: 22초 YouTube Shorts v3 완료.** [질문→반전→역할 차이→선택 흐름](docs/revision-v3.md), [검사·비용 기록](docs/revision-v3-quality.json). 기존 영상과 남성 음성만 재편집해 추가 비용 0, 프로젝트 누계 79크레딧. 서스펜션·독립 도식 화면을 빼고 차량 영상 위에 짧은 그래픽을 겹쳤습니다.
 
-**최신: 첫 30초 착지 설명 영상 완성본을 제작했습니다.** [완성본·대본·출처·로컬 재현](docs/first-film.md), [테스트 검수·재개](docs/pilot-review.md), [작업 ID·비용 저널](docs/production-state.json), [플랫폼별 게시 문안](docs/publishing-copy.md), [채널 운영 기준](docs/channel-production.md)을 확인하세요. 세 테스트 합계 75크레딧 사용, 마지막 실조회 잔액 925. 현재 추가 생성 예산은 0입니다. 기존 테스트의 재개는 `shorts.pilot_session status/download`만 사용하며, 아래 과거 생성 예시는 현재 생성 승인이 아닙니다.
+**v2 이력: 30초 수정본.** [요청 반영·수정 대본·출처·남은 작업](docs/revision-v2.md), [v2 작업·비용 저널](docs/revision-v2-state.json). 남성 음성 1회 합성에 실제 4크레딧 사용, 프로젝트 누계 79·잔액 921. 30초 수정본에 남성 내레이션·냉가스 추진기/흡착팬 설명·사용자 제공 선택 이미지를 반영했습니다. 고정 AI 문구와 주황색 보조 문구, 정지 차량 사진 컷을 제거했습니다. 아래 첫 완성본은 v1 이력입니다.
+
+**v1 이력: 첫 30초 착지 설명 영상.** [완성본·대본·출처·로컬 재현](docs/first-film.md), [테스트 검수·재개](docs/pilot-review.md), [작업 ID·비용 저널](docs/production-state.json), [플랫폼별 게시 문안](docs/publishing-copy.md), [채널 운영 기준](docs/channel-production.md)을 확인하세요. 세 테스트 합계 75크레딧 사용, 마지막 실조회 잔액 925. 현재 추가 생성 예산은 0입니다. 기존 테스트의 재개는 `shorts.pilot_session status/download`만 사용하며, 아래 과거 생성 예시는 현재 생성 승인이 아닙니다.
 
 업로드한 로드스터 이미지로 60초·9:16 숏폼을 준비합니다. 기본 명령은 영상 API를 호출하지 않습니다.
 

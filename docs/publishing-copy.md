@@ -1,5 +1,7 @@
 # 첫 작품 게시 패키지
 
+> 최신 게시 후보는 22초 v3입니다. [v3 제목·설명·공개 안내](revision-v3.md#게시-문안)를 사용합니다. 아래 문안은 v1·v2 이력입니다.
+
 > v2 수정 안내: 현재 작업은 YouTube Shorts 우선입니다. 최신 [v2 대본·출처·편집 상태](revision-v2.md)를 기준으로 게시합니다. 아래 v1의 Instagram/TikTok 문안은 참고 이력이며 별도 제작·게시 승인이 아닙니다.
 
 파일: `outputs/first-film/roadster_landing_v1.mp4` (세로 9:16, 30초, 한국어 음성·번인 자막). 별도 자막 파일은 `captions.srt`. 계정에는 게시하지 않았습니다.

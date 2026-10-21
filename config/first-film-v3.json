@@ -1,0 +1,156 @@
+{
+  "version": 3,
+  "duration": 22,
+  "fps": 24,
+  "width": 720,
+  "height": 1280,
+  "platform": "youtube_shorts",
+  "started_at": "2026-10-21T08:11:21.938832+00:00",
+  "audio_source": "outputs/first-film-v2/audio/voice_source.audio",
+  "audio_source_sha256": "92e7c4abbb8ef83094f0471dd92ee985ef2046006c8175e4876e90e82714297d",
+  "voice_task_id": "85faff93-22b4-47cf-8852-977a2fba04b3",
+  "cta_asset": "assets/choices-user.png",
+  "additional_credits": 0,
+  "narration": [
+    {
+      "start": 0,
+      "end": 3,
+      "source_start": 0,
+      "source_end": 3,
+      "text": "날아오른 로드스터, 내려올 땐 뭘 쓸까요?"
+    },
+    {
+      "start": 3,
+      "end": 6,
+      "source_start": 22.36,
+      "source_end": 25.27,
+      "text": "공중에서 땅을 끌어당기는 장치는 아니에요."
+    },
+    {
+      "start": 6,
+      "end": 10.9,
+      "source_start": 8.6,
+      "source_end": 13.38,
+      "text": "불꽃 대신 압축 공기를 아래로 뿜어, 하강에 브레이크를 거는 거죠."
+    },
+    {
+      "start": 10.9,
+      "end": 15.9,
+      "source_start": 17,
+      "source_end": 22.04,
+      "text": "팬은 역할이 달라요. 차 밑 공기를 빼서 바닥에 붙는 힘을 만듭니다."
+    },
+    {
+      "start": 15.9,
+      "end": 17.8,
+      "source_start": 25.7,
+      "source_end": 27.72,
+      "text": "추진기와 팬, 역할이 다르죠."
+    },
+    {
+      "start": 17.8,
+      "end": 22,
+      "source_start": 28.27,
+      "source_end": 31.85,
+      "text": "여러분은 어떤가요? 아직 무섭다, 아니면 타보고 싶다?"
+    }
+  ],
+  "captions": [
+    [
+      0,
+      3,
+      "날아오른 로드스터,\n내려올 땐 뭘 쓸까요?"
+    ],
+    [
+      3,
+      6,
+      "공중에서 땅을 끌어당기는\n장치는 아니에요."
+    ],
+    [
+      6,
+      8.6,
+      "불꽃 대신 압축 공기를\n아래로 뿜어,"
+    ],
+    [
+      8.6,
+      10.9,
+      "하강에 브레이크를\n거는 거죠."
+    ],
+    [
+      10.9,
+      12.2,
+      "팬은 역할이 달라요."
+    ],
+    [
+      12.2,
+      15.9,
+      "차 밑 공기를 빼서\n바닥에 붙는 힘을 만듭니다."
+    ],
+    [
+      15.9,
+      17.8,
+      "추진기와 팬,\n역할이 다르죠."
+    ],
+    [
+      17.8,
+      19.2,
+      "여러분은 어떤가요?"
+    ],
+    [
+      19.2,
+      22,
+      "아직 무섭다,\n아니면 타보고 싶다?"
+    ]
+  ],
+  "shots": [
+    {
+      "start": 0,
+      "end": 3,
+      "test": 3,
+      "source_start": 0.25
+    },
+    {
+      "start": 3,
+      "end": 6,
+      "test": 2,
+      "source_start": 0.5
+    },
+    {
+      "start": 6,
+      "end": 8.6,
+      "test": 3,
+      "source_start": 0.55
+    },
+    {
+      "start": 8.6,
+      "end": 10.9,
+      "test": 2,
+      "source_start": 1.2
+    },
+    {
+      "start": 10.9,
+      "end": 13.3,
+      "test": 3,
+      "source_start": 0.6
+    },
+    {
+      "start": 13.3,
+      "end": 15.9,
+      "test": 2,
+      "source_start": 1.7
+    },
+    {
+      "start": 15.9,
+      "end": 17.8,
+      "test": 3,
+      "source_start": 0.7
+    }
+  ],
+  "rules": [
+    "No new video or voice generation",
+    "No standalone diagram scenes",
+    "No still vehicle photos",
+    "No fixed AI/orange disclosures",
+    "Suspension explanation omitted by latest user approval"
+  ]
+}
