@@ -2,3 +2,4 @@ episode_id,status,seconds,credits_prior,credits_this_run,credits_total,last_bala
 landing-001,v1_complete_reviewable,30,25,50,75,925,0.75,0,0,2026-10-21T06:39:40.899753+00:00,2026-10-21T06:56:14.413870+00:00,994,Wall-clock since test 2 submission; excludes unmeasured prior work; not human labor time,not_published
 landing-001-v2,v2_complete_reviewable,30,75,4,79,921,0.79,0.04,0,,,,Full revision time not measured; one male TTS generation; existing vehicle clips reused,not_published
 landing-001-v3,v3_complete_reviewable,22,79,0,79,921,0.79,0,0,2026-10-21T08:11:21.938832+00:00,2026-10-21T08:13:52.481926+00:00,151,Wall-clock since v3 edit plan; prior research/inspection time excluded; no new paid calls,not_published
+landing-001-v4,v4_complete_reviewable,22,79,144,223,777,2.23,0,0,2026-10-21T08:23:22.629168+00:00,2026-10-21T08:42:16.955737+00:00,1134,Wall-clock since v4 plan; not human labor time; four approved one-shot generations and local original music,not_published
