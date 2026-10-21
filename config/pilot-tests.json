@@ -1,0 +1,30 @@
+{
+  "title": "착지 영상 사전 테스트",
+  "references": {
+    "coast": "황혼의 해안도로를 달리는 미래형 슈퍼카.png",
+    "moon": "달빛 아래 비상하는 미래형 하이퍼카.png"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "reference": "coast",
+      "prompt": "The reference car moves slowly forward on the empty coastal road. The camera tracks smoothly beside the front quarter, keeping the entire car visible. Wheels roll naturally, subtle suspension motion, stable body proportions. Preserve the original dusk lighting and coastline. Vertical 9:16, photorealistic cinematic automotive footage. Preserve the exact pearl-white body shape, black wheels, headlights and windows from the reference. No text, no watermark."
+    },
+    {
+      "id": 2,
+      "start": 5,
+      "end": 10,
+      "reference": "moon",
+      "prompt": "The already airborne reference car holds a low, stable hover above the empty closed test track. Camera makes a very slow lateral move. Gentle downward vapor, stable vehicle attitude, restrained motion. Preserve the moonlit cyan and red lighting. Vertical 9:16, photorealistic cinematic automotive footage. Preserve the exact pearl-white body shape, black wheels, headlights and windows from the reference. No text, no watermark."
+    },
+    {
+      "id": 3,
+      "start": 10,
+      "end": 15,
+      "reference": "moon",
+      "prompt": "The already airborne reference car gently descends vertically a short distance onto the empty closed test track. Wheels make contact with the road, suspension compresses once and settles. Smooth side tracking camera, stable vehicle attitude, realistic gravity, no bounce or extra jump. Preserve the moonlit cyan and red lighting. Vertical 9:16, photorealistic cinematic automotive footage. Preserve the exact pearl-white body shape, black wheels, headlights and windows from the reference. No text, no watermark."
+    }
+  ]
+}

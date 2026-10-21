@@ -73,6 +73,19 @@ class PipelineTests(unittest.TestCase):
             runway.generate_scene(self.project, changed, execute=True, client=client)
         self.assertEqual(client.image_to_video.create.call_count, 1)
 
+    def test_pilot_jobs_do_not_collide_with_original_project(self):
+        from shorts.pilot import load_tests
+        pilot, requests = load_tests()
+        self.assertEqual(sum(request["duration"] * 5 for request in requests), 75)
+        client = Mock()
+        client.image_to_video.create.return_value = SimpleNamespace(id="pilot-123")
+        pilot_output = self.output / "pilot-tests"
+        with self.assertRaisesRegex(RuntimeError, "timed out"):
+            runway.generate_scene(pilot, pilot["scenes"][0], execute=True, client=client,
+                                  timeout=0, output_dir=pilot_output)
+        self.assertTrue((pilot_output / "jobs/scene_01.json").is_file())
+        self.assertFalse((self.output / "jobs/scene_01.json").exists())
+
 
 if __name__ == "__main__":
     unittest.main()

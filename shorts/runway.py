@@ -5,6 +5,7 @@ import io
 import json
 import os
 import time
+from pathlib import Path
 from urllib.parse import urlparse
 from urllib.request import urlopen
 
@@ -24,7 +25,7 @@ def image_uri(path):
     return "data:image/jpeg;base64," + encoded
 
 
-def generate_scene(project, scene, execute=False, client=None, timeout=1800, poll=10):
+def generate_scene(project, scene, execute=False, client=None, timeout=1800, poll=10, output_dir=None):
     request = request_for(project, scene)
     if not execute:
         print(json.dumps(request, ensure_ascii=False, indent=2))
@@ -37,7 +38,8 @@ def generate_scene(project, scene, execute=False, client=None, timeout=1800, pol
         if not os.getenv("RUNWAYML_API_SECRET"):
             raise ValueError("Set RUNWAYML_API_SECRET in a private .env file. Do not put it in GitHub or chat.")
         client = RunwayML(max_retries=0, timeout=60)
-    job_path = OUTPUT / "jobs" / f"scene_{scene['id']:02}.json"
+    directory = Path(output_dir) if output_dir is not None else OUTPUT
+    job_path = directory / "jobs" / f"scene_{scene['id']:02}.json"
     fingerprint = hashlib.sha256(json.dumps(request, sort_keys=True).encode()).hexdigest()
     state = json.loads(job_path.read_text()) if job_path.exists() else None
     if state and state["fingerprint"] != fingerprint:
@@ -58,7 +60,7 @@ def generate_scene(project, scene, execute=False, client=None, timeout=1800, pol
             raise RuntimeError(f"Submission stopped ({type(error).__name__}). Check the dashboard before retrying.") from None
         state.update(id=task.id, status="PENDING")
         atomic_json(job_path, state)
-    clip = OUTPUT / "clips" / f"scene_{scene['id']:02}.mp4"
+    clip = directory / "clips" / f"scene_{scene['id']:02}.mp4"
     if state["status"] == "SUCCEEDED" and clip.is_file() and clip.stat().st_size:
         print(f"Already saved: {clip.name}")
         return
