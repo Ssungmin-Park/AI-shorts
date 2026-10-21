@@ -1,0 +1,120 @@
+{
+  "title": "로드스터가 바꿀 미래 TOP 3",
+  "disclosure": "AI로 구현한 미래 콘셉트 · 실제 양산 사양 아님",
+  "references": {
+    "coast": "황혼의 해안도로를 달리는 미래형 슈퍼카.png",
+    "moon": "달빛 아래 비상하는 미래형 하이퍼카.png"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 3,
+      "reference": "moon",
+      "title": "차가 잠깐 날아오른다면?",
+      "caption": "차가 달리는 것을 넘어\n잠깐 날아오른다면?",
+      "narration": "차가 달리는 것을 넘어 잠깐 날아오른다면?",
+      "prompt": "Vertical 9:16, photorealistic cinematic footage of a futuristic pearl-white Tesla Roadster-inspired electric hypercar with sharp angular stealth-aircraft bodywork, black aerodynamic wheels and tinted windows, briefly lifting into the air over an empty closed test track using directional compressed-air thrusters. Extreme low-angle tracking camera, dramatic slow motion, midnight environment, moody cyan rim lighting, crimson highlights, deep shadows, premium automotive commercial aesthetic, 35mm anamorphic lens, realistic physics, no text, no watermark. Preserve the reference vehicle body shape, headlights, wheels and pearl-white finish.",
+      "review_note": "달빛 이미지에서 짧은 공중 동작을 이어간다. 원본은 이미 공중에 있으므로 이륙보다 체공·착지 연결을 검수한다."
+    },
+    {
+      "id": 2,
+      "start": 3,
+      "end": 8,
+      "reference": "coast",
+      "title": "로드스터가 바꿀 미래 TOP 3",
+      "caption": "미래형 로드스터를 통해\n세 가지 변화를 상상해 봅니다.",
+      "narration": "미래형 로드스터를 통해 세 가지 변화를 상상해 봅니다.",
+      "prompt": "Vertical 9:16, a pearl-white angular Tesla Roadster-inspired futuristic electric hypercar with black aerodynamic wheels slowly revealed inside a dark aircraft hangar. Overhead industrial lights switch on sequentially, reflecting across sculpted glossy white panels. Smooth cinematic camera dolly toward the headlights, moody teal-blue and crimson lighting, deep graphite shadows, subtle film grain, premium realistic automotive cinematography, 35mm lens, no text, no watermark. Preserve the reference vehicle body shape, headlights, wheels and pearl-white finish.",
+      "review_note": "황혼의 해안 배경에서 격납고로 급격히 바뀔 수 있다. 격납고 기준 프레임을 추가하면 안정적이다."
+    },
+    {
+      "id": 3,
+      "start": 8,
+      "end": 15,
+      "reference": "coast",
+      "title": "TOP 3 · 가속의 기준",
+      "caption": "가속이 더 강력해진다면\n스포츠카의 기준도 달라질까요?",
+      "narration": "가속이 더 강력해진다면 스포츠카의 기준도 달라질까요?",
+      "prompt": "Vertical 9:16, pearl-white angular Tesla Roadster-inspired hypercar with graphite-black aerodynamic wheels performing an extremely rapid acceleration run on a private nighttime test runway. Low side-mounted tracking camera, intense background motion blur while the vehicle remains sharply focused, realistic tire grip, controlled suspension movement, cold cyan headlights, subtle crimson reflections, cinematic moody lighting, photorealistic 35mm automotive commercial, no text, no watermark. Preserve the reference vehicle body shape, headlights, wheels and pearl-white finish.",
+      "review_note": "황혼 이미지를 주행 디자인 기준으로 사용한다."
+    },
+    {
+      "id": 4,
+      "start": 15,
+      "end": 21,
+      "reference": "coast",
+      "title": "빠른 차, 사람이 감당할까?",
+      "caption": "성능만큼 중요한 것은\n운전자가 제어할 수 있는가입니다.",
+      "narration": "성능만큼 중요한 것은 운전자가 제어할 수 있는가입니다.",
+      "prompt": "Vertical 9:16, immersive interior close-up of a futuristic electric hypercar, black carbon-fiber cockpit, gloved human driver gripping the steering wheel firmly during intense acceleration on a closed test circuit. Macro detail of hands, seatbelt fabric and subtle vibration, realistic human movement, tight 50mm cinematic lens, moody teal reflections and crimson dashboard illumination, high-contrast film grading, no text, no watermark. Preserve the reference vehicle body shape, headlights, wheels and pearl-white finish.",
+      "review_note": "실내 기준 이미지가 없어 내부 디자인은 추정된다. 장갑 낀 손과 안전벨트를 별도 검수한다."
+    },
+    {
+      "id": 5,
+      "start": 21,
+      "end": 28,
+      "reference": "moon",
+      "title": "TOP 2 · 중력을 거스르는 상상",
+      "caption": "천장까지 달리는 자동차?\n아직은 가상 실험 속 이야기입니다.",
+      "narration": "천장까지 달리는 자동차? 아직은 가상 실험 속 이야기입니다.",
+      "prompt": "Vertical 9:16, ultra-realistic pearl-white angular Tesla Roadster-inspired experimental hypercar driving upside down along the underside of a specially engineered inverted test ramp inside an enormous closed aerospace testing facility. Dramatic rotating wide-angle camera, massive industrial architecture, realistic contact with the track, cinematic teal-blue lighting with crimson highlights, intense depth and scale, high-contrast photorealism, no text, no watermark. Preserve the reference vehicle body shape, headlights, wheels and pearl-white finish.",
+      "review_note": "천장 주행은 미확인 미래 콘셉트이다. 전용 시작 프레임을 추가하면 안정적이다."
+    },
+    {
+      "id": 6,
+      "start": 28,
+      "end": 35,
+      "reference": "moon",
+      "title": "비밀은 차체 아래에",
+      "caption": "차체 아래의 공기를 빼내는 팬.\n그 힘으로 접지력을 높인다는 발상입니다.",
+      "narration": "차체 아래의 공기를 빼내는 팬. 그 힘으로 접지력을 높인다는 발상입니다.",
+      "prompt": "Vertical 9:16, photorealistic cinematic engineering visualization of the same pearl-white futuristic electric hypercar. Camera travels underneath the vehicle to reveal a multi-mode suction fan system, with subtle translucent cyan airflow visualization showing air being extracted beneath the chassis. Transition into an aggressive yet controlled cornering shot on a private racetrack. Dark carbon fiber, realistic mechanical textures, moody blue and crimson lighting, no text, no watermark. Preserve the reference vehicle body shape, headlights, wheels and pearl-white finish.",
+      "review_note": "흡입 팬은 가상 설계이며 원본 이미지로 실재 구조를 확인할 수 없다."
+    },
+    {
+      "id": 7,
+      "start": 35,
+      "end": 42,
+      "reference": "coast",
+      "title": "TOP 1 · 운전의 의미",
+      "caption": "자율주행이 일상이 된다면\n직접 운전하는 일은 어떤 의미일까요?",
+      "narration": "자율주행이 일상이 된다면 직접 운전하는 일은 어떤 의미일까요?",
+      "prompt": "Vertical 9:16, cinematic futuristic automotive scene featuring a pearl-white angular human-driven electric Roadster-inspired hypercar in the foreground and a minimal black autonomous robotaxi silently passing in the background. Private futuristic technology campus at night, visual contrast between human control and autonomous mobility, low-angle 35mm anamorphic camera, glossy carbon-fiber details, moody cyan illumination and crimson highlights, photorealistic, no text, no watermark. Preserve the reference vehicle body shape, headlights, wheels and pearl-white finish.",
+      "review_note": "황혼 이미지를 차량 디자인 기준으로 사용하고 로보택시는 별도 검수한다."
+    },
+    {
+      "id": 8,
+      "start": 42,
+      "end": 49,
+      "reference": "coast",
+      "title": "직접 운전하는 즐거움",
+      "caption": "이동의 편리함과 조작의 즐거움.\n당신은 어느 쪽을 선택하겠어요?",
+      "narration": "이동의 편리함과 조작의 즐거움. 당신은 어느 쪽을 선택하겠어요?",
+      "prompt": "Vertical 9:16, intimate cinematic close-up of a human driver's hand gently taking control of the steering wheel inside a pearl-white futuristic Roadster-inspired sports car. Match cut to the completely empty front cabin of an autonomous robotaxi. Emotional visual contrast, tactile stitched leather and carbon fiber details, soft cyan lighting with subtle crimson edge reflections, extremely realistic hands, shallow depth of field, premium moody film aesthetic, no text, no watermark. Preserve the reference vehicle body shape, headlights, wheels and pearl-white finish.",
+      "review_note": "두 동작의 매치 컷은 한 번의 생성보다 별도 생성 후 편집이 더 안정적일 수 있다."
+    },
+    {
+      "id": 9,
+      "start": 49,
+      "end": 55,
+      "reference": "moon",
+      "title": "도약의 다음은, 안전한 착지",
+      "caption": "날아오르는 장면보다 중요한 건\n안전하게 돌아오는 기술입니다.",
+      "narration": "날아오르는 장면보다 중요한 건 안전하게 돌아오는 기술입니다.",
+      "prompt": "Vertical 9:16, same pearl-white angular Roadster-inspired experimental hypercar briefly jumping above an empty closed aerospace test runway, using controlled cold-gas propulsion, then landing safely. Cinematic side tracking shot with realistic short airborne movement, graphite-black carbon-fiber details, dramatic moody teal and crimson lighting, realistic gravity, no other traffic, no text, no watermark. Preserve the reference vehicle body shape, headlights, wheels and pearl-white finish.",
+      "review_note": "달빛 이미지로 착지를 이어간다. 단좌형으로 바꾸면 동일성 저하가 생겨 원본 차체를 우선한다."
+    },
+    {
+      "id": 10,
+      "start": 55,
+      "end": 60,
+      "reference": "coast",
+      "title": "당신은 직접 운전할 건가요?",
+      "caption": "당신이 기대하는 자동차의 미래는?\n댓글로 들려주세요.",
+      "narration": "당신이 기대하는 자동차의 미래는? 댓글로 들려주세요.",
+      "prompt": "Vertical 9:16, cinematic rear view of the same pearl-white angular Tesla Roadster-inspired futuristic hypercar stationary inside a vast dark aerospace hangar. Thin crimson rear light strip glowing through subtle atmospheric haze, faint cyan overhead reflections on glossy white paint, slow camera pullback into darkness, moody high contrast, premium sci-fi automotive documentary aesthetic, photorealistic, no text, no watermark. Preserve the reference vehicle body shape, headlights, wheels and pearl-white finish.",
+      "review_note": "후면 기준 프레임 없이 후면을 추정하므로 테일램프·차체를 검수한다."
+    }
+  ]
+}

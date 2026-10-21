@@ -205,6 +205,11 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# Local videos, job records, and private settings
+outputs/
+.env.*
+!.env.example
+
 # Ruff stuff:
 .ruff_cache/
 
