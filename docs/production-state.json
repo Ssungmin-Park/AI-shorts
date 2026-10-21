@@ -1,0 +1,112 @@
+{
+  "authorization_date": "2026-10-21",
+  "pricing_source": "https://docs.dev.runwayml.com/guides/pricing/",
+  "credits_per_second": 5,
+  "total_generation_cap": 75,
+  "additional_authorized_cap": 50,
+  "last_balance": 925,
+  "jobs": {
+    "1": {
+      "request": {
+        "scene_id": 1,
+        "model": "gen4_turbo",
+        "ratio": "720:1280",
+        "duration": 5,
+        "edit_duration": 5,
+        "image": "황혼의 해안도로를 달리는 미래형 슈퍼카.png",
+        "image_sha256": "4b8b4fb62f96b980d0eab82981d628487df55736ae2230eae35d827995970990",
+        "prompt_text": "The reference car moves slowly forward on the empty coastal road. The camera tracks smoothly beside the front quarter, keeping the entire car visible. Wheels roll naturally, subtle suspension motion, stable body proportions. Preserve the original dusk lighting and coastline. Vertical 9:16, photorealistic cinematic automotive footage. Preserve the exact pearl-white body shape, black wheels, headlights and windows from the reference. No text, no watermark."
+      },
+      "status": "SUCCEEDED",
+      "reserved_credits": 25,
+      "id": "17de86aa-604d-43dc-a307-21f98ae79580",
+      "file": "outputs/pilot-tests/clips/scene_01.mp4",
+      "bytes": 3940628,
+      "sha256": "62b6ed3e901942e2c1d7a15add4c08e18ec4632891f83037c0936d8fc7d0edcc",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 720,
+            "height": 1280,
+            "r_frame_rate": "24/1"
+          }
+        ],
+        "format": {
+          "duration": "5.041667"
+        }
+      },
+      "decode_check": "passed"
+    },
+    "2": {
+      "request": {
+        "scene_id": 2,
+        "model": "gen4_turbo",
+        "ratio": "720:1280",
+        "duration": 5,
+        "edit_duration": 5,
+        "image": "달빛 아래 비상하는 미래형 하이퍼카.png",
+        "image_sha256": "ca116cbf7b59b5cbf2e39b605a84a6cf02a8db9439f61453eacbb8c40f65285e",
+        "prompt_text": "The already airborne reference car holds a low, stable hover above the empty closed test track. Camera makes a very slow lateral move. Gentle downward vapor, stable vehicle attitude, restrained motion. Preserve the moonlit cyan and red lighting. Vertical 9:16, photorealistic cinematic automotive footage. Preserve the exact pearl-white body shape, black wheels, headlights and windows from the reference. No text, no watermark."
+      },
+      "status": "SUCCEEDED",
+      "reserved_credits": 25,
+      "submitted_at": "2026-10-21T06:39:40.899753+00:00",
+      "id": "82809632-8631-4f42-8b0a-8e6b65cd01d2",
+      "file": "outputs/pilot-tests/clips/scene_02.mp4",
+      "bytes": 1802666,
+      "sha256": "aa8cb3f95353606a82f5ed3a836b4bb53da42b9bc1941b8bdcd8b1db36e98d27",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 720,
+            "height": 1280,
+            "r_frame_rate": "24/1"
+          }
+        ],
+        "format": {
+          "duration": "5.041667"
+        }
+      },
+      "decode_check": "passed"
+    },
+    "3": {
+      "request": {
+        "scene_id": 3,
+        "model": "gen4_turbo",
+        "ratio": "720:1280",
+        "duration": 5,
+        "edit_duration": 5,
+        "image": "달빛 아래 비상하는 미래형 하이퍼카.png",
+        "image_sha256": "ca116cbf7b59b5cbf2e39b605a84a6cf02a8db9439f61453eacbb8c40f65285e",
+        "prompt_text": "The already airborne reference car gently descends vertically a short distance onto the empty closed test track. Wheels make contact with the road, suspension compresses once and settles. Smooth side tracking camera, stable vehicle attitude, realistic gravity, no bounce or extra jump. Preserve the moonlit cyan and red lighting. Vertical 9:16, photorealistic cinematic automotive footage. Preserve the exact pearl-white body shape, black wheels, headlights and windows from the reference. No text, no watermark."
+      },
+      "status": "SUCCEEDED",
+      "reserved_credits": 25,
+      "submitted_at": "2026-10-21T06:40:48.662296+00:00",
+      "id": "cedccc44-f84c-477e-a302-17264defa8a4",
+      "file": "outputs/pilot-tests/clips/scene_03.mp4",
+      "bytes": 1874312,
+      "sha256": "2901b6ff11bcedbc49320cde6877c51d6494d2d683584375b6c7c821b48ee4c1",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 720,
+            "height": 1280,
+            "r_frame_rate": "24/1"
+          }
+        ],
+        "format": {
+          "duration": "5.041667"
+        }
+      },
+      "decode_check": "passed"
+    }
+  },
+  "balance_checked_at": "2026-10-21T06:44:47.730226+00:00"
+}

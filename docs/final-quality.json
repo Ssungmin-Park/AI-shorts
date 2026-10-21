@@ -1,0 +1,82 @@
+{
+  "checked_at": "2026-10-21T06:56:14.413870+00:00",
+  "final_file": "outputs/first-film/roadster_landing_v1.mp4",
+  "sha256": "90cd01f25fb09f70c86d42b0659983fca5717c652ed50401669eac59df6a69fe",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "nb_frames": "720"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 1,
+        "r_frame_rate": "0/0",
+        "nb_frames": "1408"
+      }
+    ],
+    "format": {
+      "duration": "30.000000",
+      "size": "3438997"
+    }
+  },
+  "decode_check": "passed",
+  "visual_review": "Selected frames inspected across all sections; disclosures/captions/diagram contact positions checked.",
+  "voice_review": "Local synthesis timing checked. Offline ASR has uncertain words; no full human listening verification claimed.",
+  "audio_timing": {
+    "model_sha256": "552af73776a1c2a705d828e1435592419eb42b1de9cc2bcb3bb5bcf6efb90cd9",
+    "lines": [
+      {
+        "line": 0,
+        "start": 0.08,
+        "speech_seconds": 2.8961451247165533,
+        "tempo": 1.0133395887090468
+      },
+      {
+        "line": 1,
+        "start": 3.18,
+        "speech_seconds": 2.8815873015873015,
+        "tempo": 1.0
+      },
+      {
+        "line": 2,
+        "start": 6.88,
+        "speech_seconds": 2.5643990929705214,
+        "tempo": 1.0
+      },
+      {
+        "line": 3,
+        "start": 10.68,
+        "speech_seconds": 4.423809523809524,
+        "tempo": 1.0
+      },
+      {
+        "line": 4,
+        "start": 15.68,
+        "speech_seconds": 4.15859410430839,
+        "tempo": 1.0
+      },
+      {
+        "line": 5,
+        "start": 21.279999999999998,
+        "speech_seconds": 2.7455328798185943,
+        "tempo": 1.0
+      },
+      {
+        "line": 6,
+        "start": 25.18,
+        "speech_seconds": 3.428480725623583,
+        "tempo": 1.0
+      }
+    ]
+  },
+  "render_elapsed_since_first_new_submission_seconds": 994
+}

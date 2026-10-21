@@ -31,6 +31,8 @@ def main():
         parser.error("--execute requires --test 1, 2, or 3; bulk generation is disabled")
     project, requests = load_tests()
     if args.execute:
+        if (ROOT / "docs/production-state.json").exists():
+            raise ValueError("Tracked pilot journal exists. Use shorts.pilot_session status/download; legacy submission is blocked to prevent duplicate charges.")
         generate_scene(project, project["scenes"][args.test - 1], execute=True,
                        output_dir=OUTPUT / "pilot-tests")
     else:

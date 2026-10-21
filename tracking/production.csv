@@ -1,0 +1,2 @@
+episode_id,status,seconds,credits_prior,credits_this_run,credits_total,last_balance,usd_equivalent_before_tax,voice_api_cost,music_api_cost,timer_started_at_utc,timer_completed_at_utc,elapsed_since_first_new_submission_seconds,elapsed_scope,performance_status
+landing-001,v1_complete_reviewable,30,25,50,75,925,0.75,0,0,2026-10-21T06:39:40.899753+00:00,2026-10-21T06:56:14.413870+00:00,994,Wall-clock since test 2 submission; excludes unmeasured prior work; not human labor time,not_published
