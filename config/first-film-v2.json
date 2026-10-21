@@ -1,0 +1,65 @@
+{
+  "version": 2,
+  "status": "v2_complete_reviewable",
+  "duration": 30,
+  "fps": 24,
+  "width": 720,
+  "height": 1280,
+  "narration": [
+    {
+      "start": 0,
+      "end": 3,
+      "text": "날아오른 로드스터, 내려올 땐 뭘 쓸까요?"
+    },
+    {
+      "start": 3,
+      "end": 6.8,
+      "text": "테슬라가 공개한 건 냉가스 추진기와 흡착 시스템."
+    },
+    {
+      "start": 6.8,
+      "end": 11.8,
+      "text": "불꽃 대신 압축 공기를 아래로 뿜어, 하강에 브레이크를 거는 거죠."
+    },
+    {
+      "start": 11.8,
+      "end": 15,
+      "text": "남은 충격은 서스펜션이 받아주고요."
+    },
+    {
+      "start": 15,
+      "end": 20,
+      "text": "팬은 역할이 달라요. 차 밑 공기를 빼서 바닥에 붙는 힘을 만듭니다."
+    },
+    {
+      "start": 20,
+      "end": 25,
+      "text": "공중에서 땅을 끌어당기는 장치는 아니에요. 추진기와 팬, 역할이 다르죠."
+    },
+    {
+      "start": 25,
+      "end": 30,
+      "text": "여러분은 어떤가요? 아직 무섭다, 아니면 타보고 싶다?"
+    }
+  ],
+  "speech_request": {
+    "model": "eleven_multilingual_v2",
+    "voice": {
+      "type": "runway-preset",
+      "presetId": "James"
+    },
+    "promptText": "날아오른 로드스터, 내려올 땐 뭘 쓸까요?\n테슬라가 공개한 건 냉가스 추진기와 흡착 시스템.\n불꽃 대신 압축 공기를 아래로 뿜어, 하강에 브레이크를 거는 거죠.\n남은 충격은 서스펜션이 받아주고요.\n팬은 역할이 달라요. 차 밑 공기를 빼서 바닥에 붙는 힘을 만듭니다.\n공중에서 땅을 끌어당기는 장치는 아니에요. 추진기와 팬, 역할이 다르죠.\n여러분은 어떤가요? 아직 무섭다, 아니면 타보고 싶다?"
+  },
+  "speech_status": "SUCCEEDED",
+  "speech_estimated_credits": 5,
+  "speech_authorized_cap": 10,
+  "cta_asset": "assets/choices-user.png",
+  "cta_status": "ORIGINAL_RECEIVED_AND_VERIFIED",
+  "still_vehicle_shots": false,
+  "platform": "youtube_shorts",
+  "overlay_disclosures": false,
+  "educational_basics": "one_sentence_only",
+  "speech_task_id": "85faff93-22b4-47cf-8852-977a2fba04b3",
+  "cta_sha256": "2eb0279813d17a7e06ec1c99681ca0f59106d0009243cb688aba8ba01ffe1301",
+  "cta_received_at": "2026-10-21T07:56:21.012328+00:00"
+}
