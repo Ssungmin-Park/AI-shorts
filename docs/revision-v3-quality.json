@@ -1,0 +1,104 @@
+{
+  "version": 3,
+  "status": "complete_reviewable",
+  "file": "outputs/first-film-v3/roadster_landing_v3.mp4",
+  "sha256": "d7176b6a82b8fb12909e41fe16acb9e08069b5e097d07fb07af3a632b5513eaf",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "nb_frames": "528"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 1,
+        "r_frame_rate": "0/0",
+        "nb_frames": "1033"
+      }
+    ],
+    "format": {
+      "duration": "22.000000",
+      "size": "6125311"
+    }
+  },
+  "checked_at": "2026-10-21T08:13:52.481926+00:00",
+  "decode_check": "passed",
+  "audio_source_task": "85faff93-22b4-47cf-8852-977a2fba04b3",
+  "audio_timing": {
+    "reused_voice_task_id": "85faff93-22b4-47cf-8852-977a2fba04b3",
+    "lines": [
+      {
+        "line": 0,
+        "source_start": 0,
+        "source_end": 3,
+        "start": 0.06,
+        "seconds": 2.8413541666666666,
+        "tempo": 1.0563380281690142
+      },
+      {
+        "line": 1,
+        "source_start": 22.36,
+        "source_end": 25.27,
+        "start": 3.06,
+        "seconds": 2.8493958333333333,
+        "tempo": 1.0246478873239437
+      },
+      {
+        "line": 2,
+        "source_start": 8.6,
+        "source_end": 13.38,
+        "start": 6.06,
+        "seconds": 4.741666666666666,
+        "tempo": 1.008438818565401
+      },
+      {
+        "line": 3,
+        "source_start": 17,
+        "source_end": 22.04,
+        "start": 10.96,
+        "seconds": 4.840791666666667,
+        "tempo": 1.0413223140495866
+      },
+      {
+        "line": 4,
+        "source_start": 25.7,
+        "source_end": 27.72,
+        "start": 15.96,
+        "seconds": 1.7519375,
+        "tempo": 1.1609195402298844
+      },
+      {
+        "line": 5,
+        "source_start": 28.27,
+        "source_end": 31.85,
+        "start": 17.86,
+        "seconds": 3.5766875,
+        "tempo": 1
+      }
+    ]
+  },
+  "audio_boundary_check": [
+    {
+      "line": 1,
+      "recognized": "공중에서 땅을 끌어당기는 장치는 아니에요."
+    },
+    {
+      "line": 4,
+      "recognized": "추진기와 펜 역할이 다르죠."
+    }
+  ],
+  "visual_review": "Selected frames inspected: hook, reversal, on-footage thruster/fan graphics, original CTA. No standalone educational slides or suspension scene.",
+  "additional_credits": 0,
+  "total_project_credits": 79,
+  "last_observed_balance": 921,
+  "balance_observation_scope": "v2 voice download; not queried during offline v3 edit",
+  "elapsed_since_edit_plan_seconds": 151
+}

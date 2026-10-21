@@ -1,0 +1,155 @@
+{
+  "version": 2,
+  "platform": "youtube_shorts",
+  "voice_authorization": "User approved male narration once, up to 10 credits, on 2026-10-21",
+  "voice_cap_credits": 10,
+  "voice_request": {
+    "model": "eleven_multilingual_v2",
+    "voice": {
+      "type": "runway-preset",
+      "presetId": "James"
+    },
+    "promptText": "날아오른 로드스터, 내려올 땐 뭘 쓸까요?\n테슬라가 공개한 건 냉가스 추진기와 흡착 시스템.\n불꽃 대신 압축 공기를 아래로 뿜어, 하강에 브레이크를 거는 거죠.\n남은 충격은 서스펜션이 받아주고요.\n팬은 역할이 달라요. 차 밑 공기를 빼서 바닥에 붙는 힘을 만듭니다.\n공중에서 땅을 끌어당기는 장치는 아니에요. 추진기와 팬, 역할이 다르죠.\n여러분은 어떤가요? 아직 무섭다, 아니면 타보고 싶다?"
+  },
+  "voice_status": "SUCCEEDED",
+  "new_video_generation_cap": 0,
+  "cta_status": "ORIGINAL_RECEIVED_AND_VERIFIED",
+  "basic_explanation_choice": "One sentence only, per user reply",
+  "review_status": "v2_complete_reviewable",
+  "voice_reserved_credits": 5,
+  "balance_before_voice": 925,
+  "voice_task_id": "85faff93-22b4-47cf-8852-977a2fba04b3",
+  "voice_file": "outputs/first-film-v2/audio/voice_source.audio",
+  "voice_sha256": "92e7c4abbb8ef83094f0471dd92ee985ef2046006c8175e4876e90e82714297d",
+  "last_balance": 921,
+  "voice_actual_credits": 4,
+  "preview_file": "outputs/first-film-v2/picture_preview_25s.mp4",
+  "preview_sha256": "2a15b6297114930857f93c47f9546a0ccdcf8ac4a2ddfab06a809993b1c8c9bb",
+  "total_video_credits": 75,
+  "total_voice_credits": 4,
+  "total_project_credits": 79,
+  "checked_at": "2026-10-21T07:55:24.775469+00:00",
+  "preview_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "nb_frames": "600"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "r_frame_rate": "0/0",
+        "nb_frames": "1173"
+      }
+    ],
+    "format": {
+      "duration": "25.000000",
+      "size": "3488241"
+    }
+  },
+  "tests_passed": 15,
+  "cta_asset": "assets/choices-user.png",
+  "cta_sha256": "2eb0279813d17a7e06ec1c99681ca0f59106d0009243cb688aba8ba01ffe1301",
+  "cta_received_at": "2026-10-21T07:56:21.013281+00:00",
+  "final_file": "outputs/first-film-v2/roadster_landing_v2.mp4",
+  "final_sha256": "199df9cc18512ba7e2139e65ee3b2c38256eea5e4c8166026ac8f1bb4e07133d",
+  "final_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "nb_frames": "720"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 1,
+        "r_frame_rate": "0/0",
+        "nb_frames": "1408"
+      }
+    ],
+    "format": {
+      "duration": "30.000000",
+      "size": "3889963"
+    }
+  },
+  "voice_edited_sha256": "1e03c918f1e3b1c704832d6d95766760012bbce2afd4eda2a43c14463eb78dd9",
+  "voice_timing": {
+    "task_id": "85faff93-22b4-47cf-8852-977a2fba04b3",
+    "lines": [
+      {
+        "line": 0,
+        "source_start": 0,
+        "source_end": 3.0,
+        "edit_start": 0.08,
+        "speech_seconds": 2.801270833333333,
+        "tempo": 1.0714285714285714
+      },
+      {
+        "line": 1,
+        "source_start": 3.98,
+        "source_end": 7.8,
+        "edit_start": 3.08,
+        "speech_seconds": 3.602895833333333,
+        "tempo": 1.0611111111111111
+      },
+      {
+        "line": 2,
+        "source_start": 8.6,
+        "source_end": 13.38,
+        "edit_start": 6.88,
+        "speech_seconds": 4.773958333333334,
+        "tempo": 1
+      },
+      {
+        "line": 3,
+        "source_start": 14.2,
+        "source_end": 16.82,
+        "edit_start": 11.88,
+        "speech_seconds": 2.6170833333333334,
+        "tempo": 1
+      },
+      {
+        "line": 4,
+        "source_start": 17.0,
+        "source_end": 22.04,
+        "edit_start": 15.08,
+        "speech_seconds": 4.813020833333334,
+        "tempo": 1.0499999999999998
+      },
+      {
+        "line": 5,
+        "source_start": 22.36,
+        "source_end": 27.72,
+        "edit_start": 20.08,
+        "speech_seconds": 4.810604166666667,
+        "tempo": 1.1166666666666667
+      },
+      {
+        "line": 6,
+        "source_start": 28.27,
+        "source_end": 31.85,
+        "edit_start": 25.08,
+        "speech_seconds": 3.5766875,
+        "tempo": 1
+      }
+    ]
+  },
+  "final_checked_at": "2026-10-21T07:58:15.520320+00:00",
+  "decode_check": "passed",
+  "visual_review": "Start, mechanism sections, and final CTA inspected; original choice labels visible, no fixed AI/orange text, no still vehicle photo source.",
+  "audio_review": "Male preset James, one paid generation. Sentence ranges assisted by local ASR, timing fitted locally. Subjective voice approval remains with the user."
+}
